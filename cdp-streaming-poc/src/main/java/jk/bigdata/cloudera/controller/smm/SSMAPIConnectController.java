@@ -20,7 +20,7 @@ public class SSMAPIConnectController {
     public ResponseEntity<Map<String, Object>> verifyAPIConnect() throws Exception {
 
         Map<String, Object> params = new HashMap<>();
-        apiConnectChecker.executePOC(params);
+        this.apiConnectChecker.executePOC(params);
 
         Map<String, Object> result = new HashMap<>();
         result.put("result", "SUCCESS");

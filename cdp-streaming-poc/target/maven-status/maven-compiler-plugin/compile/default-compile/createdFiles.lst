@@ -1,0 +1,6 @@
+jk/bigdata/cloudera/controller/smm/SSMAPIConnectController.class
+jk/bigdata/cloudera/config/CommonConfig.class
+jk/bigdata/cloudera/App.class
+jk/bigdata/cloudera/services/smm/SSMAPIConnectChecker.class
+jk/bigdata/cloudera/config/SpringFoxConfig.class
+jk/bigdata/cloudera/api/POCExecutor.class
