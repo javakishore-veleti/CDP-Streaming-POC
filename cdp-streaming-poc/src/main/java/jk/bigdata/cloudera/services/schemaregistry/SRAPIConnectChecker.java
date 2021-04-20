@@ -1,4 +1,4 @@
-package jk.bigdata.cloudera.services.smm;
+package jk.bigdata.cloudera.services.schemaregistry;
 
 import jk.bigdata.cloudera.api.POCExecutor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,15 +11,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Component
-public class SSMAPIConnectChecker implements POCExecutor {
+public class SRAPIConnectChecker implements POCExecutor {
 
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("cdp.smm.url")
+    @Value("cdp.schemaregistry.url")
     private String schmemaRegistryUrl;
 
-    @Value("cdp.smm.initial.schemaname")
+    @Value("cdp.schemaregistry.initial.schemaname")
     private String schemaName;
 
     @Override
